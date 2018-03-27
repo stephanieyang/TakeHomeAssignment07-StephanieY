@@ -15,7 +15,7 @@
         />
     <item
         android:id="@+id/menu_recycler"
-        android:title="RecyclerVew"
+        android:title="RecyclerView"
         app:showAsAction="never"
         />
 </menu>

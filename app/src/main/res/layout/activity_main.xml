@@ -18,11 +18,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start ActionBarActivity"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:textAllCaps="true"
         android:onClick="startActionBarActivity"
-        />
+        android:text="Start ActionBarActivity"
+        android:textAllCaps="true" />
 
 </android.support.constraint.ConstraintLayout>

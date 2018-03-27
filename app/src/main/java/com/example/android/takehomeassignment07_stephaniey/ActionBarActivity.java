@@ -26,7 +26,7 @@ public class ActionBarActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
+        switch (item.getItemId()) {
             case R.id.menu_add:
                 Toast.makeText(this, "Item added", Toast.LENGTH_SHORT).show();
                 break;

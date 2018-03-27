@@ -7,20 +7,20 @@
     tools:context="com.example.android.takehomeassignment07_stephaniey.RecyclerViewActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:id="@+id/recycler_view" />
+        android:layout_height="wrap_content" />
 
 
     <Button
+        android:id="@+id/add_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add random stitch"
+        android:layout_below="@id/recycler_view"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:textAllCaps="true"
         android:onClick="addRandomStitch"
-        android:layout_below="@id/recycler_view"
-        />
+        android:text="Add random stitch"
+        android:textAllCaps="true" />
 
 </RelativeLayout>

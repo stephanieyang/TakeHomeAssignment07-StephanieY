@@ -1,45 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/stitch_view"
+    android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        >
+        android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/stitch_photo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="16dp"
-        tools:src="@drawable/stockinette"
-        />
+        <ImageView
+            android:id="@+id/stitch_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            tools:src="@drawable/stockinette" />
 
-    <TextView
-        android:id="@+id/stitch_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/stitch_photo"
-        android:textSize="30sp"
-        tools:text="Stockinette Stitch"
+        <TextView
+            android:id="@+id/stitch_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/stitch_photo"
+            android:textSize="30sp"
+            tools:text="Stockinette Stitch"
 
-        />
+            />
 
-    <TextView
-        android:id="@+id/stitch_instructions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/stitch_name"
-        android:layout_toRightOf="@+id/stitch_photo"
-        tools:text="knit 1 row, purl 1 row" />
+        <TextView
+            android:id="@+id/stitch_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stitch_name"
+            android:layout_toRightOf="@+id/stitch_photo"
+            tools:text="knit 1 row, purl 1 row" />
     </RelativeLayout>
 
-</android.support.constraint.CardView>
+</android.support.v7.widget.CardView>
